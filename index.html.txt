@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Mehru 🎂</title>
+
+<style>
+body{
+margin:0;
+background:linear-gradient(135deg,#ff4e8a,#7b2ff7);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+font-family:Arial,sans-serif;
+overflow:hidden;
+color:white;
+text-align:center;
+}
+
+.box{
+padding:30px;
+max-width:700px;
+}
+
+h1{
+font-size:45px;
+}
+
+p{
+font-size:25px;
+}
+
+button{
+padding:15px 35px;
+font-size:22px;
+border:none;
+border-radius:50px;
+background:white;
+color:#ff2e63;
+cursor:pointer;
+margin-top:20px;
+}
+
+img{
+width:250px;
+border-radius:20px;
+display:none;
+margin-top:20px;
+box-shadow:0 0 20px white;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h1 id="title">🎉 Happy Birthday Mehru 🎂</h1>
+
+<p id="text">
+Tap the button to begin your surprise 💛
+</p>
+
+<button onclick="next()">Tap Here</button>
+
+<img id="photo" src="mehru.jpg">
+
+</div>
+
+<script>
+
+let i=0;
+
+const msg=[
+"Some friendships are truly priceless 💛",
+"Thank you for every smile 😊",
+"May all your dreams come true ✨",
+"Stay happy forever 🌸",
+"You are an amazing best friend ❤️",
+"Happy Birthday Mehru 🎂🎉"
+];
+
+function next(){
+
+if(i<msg.length){
+
+document.getElementById("text").innerHTML=msg[i];
+
+i++;
+
+}
+
+if(i==msg.length){
+
+document.getElementById("photo").style.display="block";
+
+}
+
+}
+
+</script>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Mehru 🎂</title>
+
+<style>
+body{
+margin:0;
+background:linear-gradient(135deg,#ff4e8a,#7b2ff7);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+font-family:Arial,sans-serif;
+overflow:hidden;
+color:white;
+text-align:center;
+}
+
+.box{
+padding:30px;
+max-width:700px;
+}
+
+h1{
+font-size:45px;
+}
+
+p{
+font-size:25px;
+}
+
+button{
+padding:15px 35px;
+font-size:22px;
+border:none;
+border-radius:50px;
+background:white;
+color:#ff2e63;
+cursor:pointer;
+margin-top:20px;
+}
+
+img{
+width:250px;
+border-radius:20px;
+display:none;
+margin-top:20px;
+box-shadow:0 0 20px white;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h1 id="title">🎉 Happy Birthday Mehru 🎂</h1>
+
+<p id="text">
+Tap the button to begin your surprise 💛
+</p>
+
+<button onclick="next()">Tap Here</button>
+
+<img id="photo" src="mehru.jpg">
+
+</div>
+
+<script>
+
+let i=0;
+
+const msg=[
+"Some friendships are truly priceless 💛",
+"Thank you for every smile 😊",
+"May all your dreams come true ✨",
+"Stay happy forever 🌸",
+"You are an amazing best friend ❤️",
+"Happy Birthday Mehru 🎂🎉"
+];
+
+function next(){
+
+if(i<msg.length){
+
+document.getElementById("text").innerHTML=msg[i];
+
+i++;
+
+}
+
+if(i==msg.length){
+
+document.getElementById("photo").style.display="block";
+
+}
+
+}
+
+</script>
+
+</body>
+</html>
